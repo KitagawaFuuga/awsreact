@@ -1,10 +1,14 @@
-import React from 'react';
+
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      コンちくわ
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>へろー</h1>
+      </header>
     </div>
   );
 }
